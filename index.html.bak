@@ -3,18 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- KEYWORDS Y DEMAS -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="computacion, computadora, soporte, ">
-    <meta name="description" content="Soporte tecnico online y armado de ordenadores">
-    <meta name="author" content="Mr. Robot">
-    <!-- FIN KEYWORDS Y DEMAS -->
-    
     <title>Document</title>
     <!-- estilo tradicional creado en el proyecto -->
    <!--  <link rel="stylesheet" href="/css/styles.css"> -->
     <!-- estilos sass -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <!-- me lo robe de fuentes online -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
     <!-- me lo robe de fuentes online -->
@@ -34,11 +28,13 @@
             </div>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#Services">Servicios</a></li>
-                <li><a href="#Projects">Proyectos</a></li>
-                <li><a href="#AboutUs">Acerca de Nosotros</a></li>
-                <li><a href="#Contact">Contacto</a></li>
-           </ul>            
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Acerca de Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Turnos Online</a></li>
+            </ul>
+            
         </nav>
         <p> </p>
 
@@ -60,7 +56,7 @@
     <!--final del header-->
     <!-- servicios -->
     
-    <section id="Services" class="services">
+    <section class="services">
         <div class="services-center">
             <article class="service">
                 <div class="service-icon">
@@ -97,7 +93,7 @@
     <!-- fin de servicios -->
 
     <!-- inicio proyectos -->
-    <section id="Projects" class="projects">
+    <section class="projects">
         <!-- titulo -->
         <div class="title">
             <h2>Proyectos</h2>
@@ -132,7 +128,7 @@
     <!-- FIN proyectos -->
 
     <!-- inicio about -->
-    <section id="AboutUs" class="about">
+    <section class="about">
         <article class="about-card">
             <h3>about us</h3>
             <i class="fas fa-laptop"></i>
@@ -145,7 +141,7 @@
     <!-- FIN relleno -->
 
     <!-- contacto -->
-    <section id="Contact" class="contact">
+    <section class="contact">
         <article class="contact-card">
             <form>
                 <h3>Contactenos</h3>
